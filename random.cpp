@@ -18,3 +18,4 @@ float gauss(float mean, float stddev){
     std::normal_distribution<> d{mean, stddev};
     return d(rng);
 }
+
